@@ -6,7 +6,7 @@ const mongoose = require("mongoose")
 const studentRoutes = require('./routes/students')
 const tutorRoutes = require('./routes/tutors')
 const tutorialRoutes = require('./routes/tutorials')
-const pastrtutorialRoutes = require('./routes/past-tutorials')
+const pasttutorialRoutes = require('./routes/past-tutorials')
 const userRoutes = require('./routes/user')
 
 //express app
@@ -25,7 +25,7 @@ app.use(express.json())
 app.use('/api/students', studentRoutes)
 app.use('/api/tutors', tutorRoutes)
 app.use('/api/tutorials', tutorialRoutes)
-app.use('/api/past-tutorials', pastrtutorialRoutes)
+//app.use('/api/past-tutorials', pasttutorialRoutes)
 app.use('/api/user', userRoutes)
 
 

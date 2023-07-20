@@ -49,6 +49,7 @@ const createTutorial = async (req, res) => {
     emptyFields.push('notes')
   }
   if(emptyFields.length > 0) {
+    console.log(emptyFields)
     return res.status(400).json({error: 'Please fill the required fields', emptyFields})
   }
 

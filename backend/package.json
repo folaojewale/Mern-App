@@ -10,7 +10,8 @@
     "validator": "^13.9.0"
   },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "name": "backend",
   "version": "1.0.0",
@@ -18,5 +19,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "description": ""
 }
