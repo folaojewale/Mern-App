@@ -8,3 +8,6 @@ Create, read, update, and delete (CRUD) operations for students, tutors, and tut
 Secure authentication using tokens.
 Easy-to-use forms for adding new students, tutors, and tutorials.
 Visual representation of student, tutor, and tutorial details.
+
+Authentication
+The app uses JWT (JSON Web Tokens) for authentication. When a user signs up or logs in, a token is generated and stored in local storage. The token is used for API requests that require authentication.
