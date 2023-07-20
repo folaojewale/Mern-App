@@ -6,7 +6,6 @@ const about = () => {
     return (
       <>
       <div className = 'about'>
-        <body>
           <header>
             <h1>About</h1>
           </header>
@@ -26,7 +25,6 @@ const about = () => {
           <footer>
             <p><a href='https://github.com/folaojewale'>Check my GitHub for the Source Code <FontAwesomeIcon icon={faGithub}/></a></p>
           </footer>
-        </body>
       </div>
       </>
     )
